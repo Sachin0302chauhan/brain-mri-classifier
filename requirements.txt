@@ -1,0 +1,10 @@
+# For GPU training on Windows/Linux with an NVIDIA card, install PyTorch first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4
+torchvision>=0.19
+streamlit>=1.50
+scikit-learn>=1.4
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+Pillow>=10.0

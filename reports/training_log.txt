@@ -1,0 +1,16 @@
+Device: cuda (NVIDIA GeForce RTX 2050)
+Train images: 4760, validation images: 840
+[head    ] epoch  1  train loss 0.830 acc 0.770 | val loss 0.649 acc 0.881  (121.4s)  <- saved
+[head    ] epoch  2  train loss 0.683 acc 0.847 | val loss 0.621 acc 0.881  (27.7s)
+[finetune] epoch  3  train loss 0.555 acc 0.911 | val loss 0.444 acc 0.969  (84.8s)  <- saved
+[finetune] epoch  4  train loss 0.444 acc 0.961 | val loss 0.398 acc 0.983  (84.3s)  <- saved
+[finetune] epoch  5  train loss 0.407 acc 0.980 | val loss 0.379 acc 0.993  (84.0s)  <- saved
+[finetune] epoch  6  train loss 0.391 acc 0.988 | val loss 0.374 acc 0.990  (84.0s)
+[finetune] epoch  7  train loss 0.379 acc 0.993 | val loss 0.367 acc 0.993  (83.6s)
+[finetune] epoch  8  train loss 0.373 acc 0.995 | val loss 0.368 acc 0.995  (83.6s)  <- saved
+[finetune] epoch  9  train loss 0.367 acc 0.997 | val loss 0.361 acc 0.998  (83.6s)  <- saved
+[finetune] epoch 10  train loss 0.366 acc 0.996 | val loss 0.361 acc 0.996  (83.9s)
+[finetune] epoch 11  train loss 0.365 acc 0.996 | val loss 0.359 acc 0.996  (84.0s)
+[finetune] epoch 12  train loss 0.364 acc 0.997 | val loss 0.360 acc 0.996  (84.2s)
+Best validation accuracy: 0.9976
+Model saved to C:\Users\sachi\Projects\brain-mri-classifier\models\efficientnet_b0_brain_mri.pt
